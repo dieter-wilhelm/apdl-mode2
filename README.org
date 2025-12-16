@@ -1,5 +1,5 @@
 #+STARTUP: all
-#+DATE: Time-stamp: <2025-12-15>
+#+DATE: Time-stamp: <2025-12-16>
 #+bind: org-html-preamble-format (("en" "%d"))
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
 #+OPTIONS: author:t c:nil creator:comment d:(not "LOGBOOK") date:t
@@ -83,7 +83,7 @@ Copyright (C) 2006 - 2025  H. Dieter Wilhelm, GPL V3
 * Requirements and installation
 #  - APDL-Mode is now available on MELPA
 #  For further installation options
-   Please have a look in the [[file:INSTALLATION.org][INSTALLATION]] file.
+Please have a look in the [[file:INSTALLATION.org][INSTALLATION]] file.
 * Usage
   # Please read the introductory tutorial first. -TODO-
 
@@ -94,32 +94,30 @@ Copyright (C) 2006 - 2025  H. Dieter Wilhelm, GPL V3
   apdl-mode help which is your `online' guide for its usage, and
   key-bindings.
 
-* Customisation
+* COMMENT Customisation
   apdl-mode provides its own customisation file
   ~ansys-config.el~. -TODO-
 * News
-  Please have a look in the [[file:NEWS.org][NEWS]] file
+Please have a look in the [[file:NEWS.org][NEWS]] file.
 * License and Acknowledgements
-
-  - GPL 3
-
+  - [[file:LICENSE][GPL 3]]
   Acknowledgements to Tim Read and Geoff Foster for their ansys-mod.el
-  from 1997 which triggered the idea in 2006 to start apdl-mode.
+  from 1997 which triggered the idea in 2006 to start APDL-mode.
 
 * Further Resources
-** APDL-Mode
+** COMMENT APDL-Mode
    - The complete [[http://dieter-wilhelm.github.io/ansys-mode][documentation of apdl-mode]] is available online
    - The [[http://www.emacswiki.org/emacs/AnsysMode][Wiki page of apdl-mode]]
    - The [[https://github.com/dieter-wilhelm/ansys-mode][GitHub page of apdl-mode]]
-** Editor Resources
+** APDL editor resources
 #   - [[http://emacs.stackexchange.com][Stackexchange]], the question and answer site.
 #   - The [[http://www.emacswiki.org][EmacsWiki]], an encyclopedia for Emacs
-   - A free Windows [[http://apdl.de][APDL editor]], site not maintained since 2011
+   - A free Windows [[http://apdl.de][APDL editor]], site not maintained since 2010
    - A commercial competitor of apdl-mode: The [[http://www.padtinc.com/pedal][Pedal]] script editor,
-     project disbandened in 2015.
+     project disbandened in 2015
    - Simple APDL syntax highlighting addons are available for various
      editors, gvim, nedit, ... just to name a few, please have a look
-     at [[http://ansys.net][ANSYS.net]].
+     at [[http://ansys.net][ANSYS.net]]
 ** ANSYS and APDL resources
    - The ANSYS manuals in the first place
    - Xansys, an [[http://www.xansys.org][ANSYS online community]] (forum registration is necessary)

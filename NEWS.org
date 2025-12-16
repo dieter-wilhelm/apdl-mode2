@@ -1,0 +1,48 @@
+#+DATE: Time-stamp: <2025-12-16>
+#+bind: org-html-preamble-format (("en" "%d"))
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:t html-preamble:t
+#+OPTIONS: html-scripts:t html-style:t html5-fancy:nil tex:t
+#+HTML_DOCTYPE: xhtml-strict
+#+DESCRIPTION: Version 20.7.0
+#+HTML_CONTAINER: div
+#+HTML_LINK_HOME: https://github.com/dieter-wilhelm/ansys-mode
+#+HTML_LINK_UP: index.html
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+HTML_MATHJAX:
+#+INFOJS_OPT:
+#+LATEX_HEADER:
+
+#+STARTUP: showall
+# #+title: News and History of APDL-Mode
+
+Copyright (C) 2006 - 2025  H. Dieter Wilhelm, GPL V3
+
+* Version 24.0, 20 years of APDL-Mode!
+* Version 20.7.0
+  - Rework of the APDL menu and new entry: Browse the Customer Portal
+    of Ansys
+  - Added ".inp" as autoloaded file suffix for apdl-mode (together
+    with ".mac", ".dat" and ".ans").
+* Version 20.6.0, 15 years of APDL-Mode!
+  Improvements, extensions and bug fixes, 2021-09-26 rc1
+  - Implemented batch runs with the current script (now C-c C-y) and
+    jobname.out inspection (now C-c C-o).
+  - Add new keyinding C-c C-n for apdl-no-of-processors
+  - Improved highlighting of user variables
+  - Improved borderline cases of M-?, the command parameter help
+  - Enhanced abbreviations, for example "`ss" (interactive
+    section-separator).
+  - Improved and updated documentation, for example see the pdf
+    version of the introductory tutorial
+  - Added customisation section for user templates
+  - Outline-minor-mode is now activated by default, with <SHIFT> +
+    <TAB> (Emacs 28.1) its folding features became even more helpful
+    for larger macro files
+  - apdl-start-classic and -start-launcher are now auto-loaded
+    commands (They can be run from the mini buffer (M-x), without
+    having a file under `apdl-mode')
+#  - Fixed help for the APDL `outres' command, thats only a minor bug,
+#  - but from Ansys ;-)
+* Older news
+See the file [[file:ONEWS.org][ONEWS]].
