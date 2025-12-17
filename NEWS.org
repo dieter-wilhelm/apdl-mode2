@@ -1,12 +1,11 @@
-#+DATE: Time-stamp: <2025-12-16>
 #+bind: org-html-preamble-format (("en" "%d"))
 #+OPTIONS: html-link-use-abs-url:nil html-postamble:t html-preamble:t
 #+OPTIONS: html-scripts:t html-style:t html5-fancy:nil tex:t
 #+HTML_DOCTYPE: xhtml-strict
 #+DESCRIPTION: Version 20.7.0
 #+HTML_CONTAINER: div
-#+HTML_LINK_HOME: https://github.com/dieter-wilhelm/ansys-mode
-#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: https://github.com/dieter-wilhelm/ansys-mode2
+# #+HTML_LINK_UP: index.html
 #+HTML_HEAD:
 #+HTML_HEAD_EXTRA:
 #+HTML_MATHJAX:
@@ -18,11 +17,18 @@
 
 Copyright (C) 2006 - 2025  H. Dieter Wilhelm, GPL V3
 
+The APDL-Mode major version number is based on the Ansys version which
+was used for updating the help keywords, element names, etc.  For
+example apdl-mode-24.0 is based on Ansys 2024 and has the minor
+APDL-Mode version number of 0.
+
 * Version 24.0, 20 years of APDL-Mode!
+  - Enable the public Ansys online help (when using Ansys 2025R1 or
+    newer)
 * Version 20.7.0
   - Rework of the APDL menu and new entry: Browse the Customer Portal
     of Ansys
-  - Added ".inp" as autoloaded file suffix for apdl-mode (together
+  - Add ".inp" as autoloaded file suffix for apdl-mode (together
     with ".mac", ".dat" and ".ans").
 * Version 20.6.0, 15 years of APDL-Mode!
   Improvements, extensions and bug fixes, 2021-09-26 rc1
@@ -46,3 +52,11 @@ Copyright (C) 2006 - 2025  H. Dieter Wilhelm, GPL V3
 #  - but from Ansys ;-)
 * Older news
 See the file [[file:ONEWS.org][ONEWS]].
+
+# The following is for Emacs
+# local variables:
+# word-wrap: t
+# show-trailing-whitespace: t
+# indicate-empty-lines: t
+# time-stamp-format: "%:y-%02m-%02d"
+# end:

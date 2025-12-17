@@ -1,5 +1,4 @@
 #+STARTUP: all
-#+DATE: Time-stamp: <2025-12-16>
 #+bind: org-html-preamble-format (("en" "%d"))
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
 #+OPTIONS: author:t c:nil creator:comment d:(not "LOGBOOK") date:t
@@ -17,13 +16,12 @@
 #+OPTIONS: html-scripts:t html-style:t html5-fancy:nil tex:t
 #+HTML_DOCTYPE: xhtml-strict
 #+HTML_CONTAINER: div
-#+HTML_LINK_HOME: https://github.com/dieter-wilhelm/ansys-mode
-#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: https://github.com/dieter-wilhelm/ansys-mode2
+# #+HTML_LINK_UP: index.html
 #+HTML_HEAD:
 #+HTML_HEAD_EXTRA:
 #+HTML_MATHJAX:
 #+INFOJS_OPT:
-#+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)
 #+LATEX_HEADER:
 
 #+title: APDL-Mode
@@ -113,9 +111,9 @@ Please have a look in the [[file:NEWS.org][NEWS]] file.
     APDL-mode.
 * Further Resources
 ** Ansys and APDL resources
-   - The public [[https://ansyshelp.ansys.com/public][Ansys Help Center]], especially the `Mechanical APDL'
-     section with its APDL guide
-   - [[http://www.xansys.org][Xansys]], an Ansys online community forum (registration necessary)
+   - The public [[https://ansyshelp.ansys.com/public][Ansys Help Center]]
+   - The public [[https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v252/en/ans_apdl/Hlp_P_APDLTOC.html][APDL guide]]
+   - [[http://www.xansys.org][Xansys]], an online community forum (registration necessary)
 #   - A general  Ansys repository [[http://www.ansys.net][Ansys.net]], down, checked 2025-12
    - The [[http://www.ansys.com][Ansys homepage]], see online courses in the "Ansys Learning Hub"
 #   - [[http://www.auc-ev.de/][AUC]], the Ansys User Club in Germany # down, checked 2025-12
@@ -142,6 +140,5 @@ Please have a look in the [[file:NEWS.org][NEWS]] file.
 # word-wrap: t
 # show-trailing-whitespace: t
 # indicate-empty-lines: t
-# time-stamp-active: t
 # time-stamp-format: "%:y-%02m-%02d"
 # end:

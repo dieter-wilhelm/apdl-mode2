@@ -1,5 +1,4 @@
 ;;; apdl-process.el --- Managing runs and processes for APDL-Mode -*- lexical-binding: t -*-
-;; Time-stamp: <2025-05-05>
 
 ;; Copyright (C) 2006 - 2021  H. Dieter Wilhelm GPL V3
 
@@ -1729,6 +1728,7 @@ elem.
     ;; (unless apdl-current-ansys-version
     ;;   (error "Please set `apdl-current-ansys-version' for reaching help pages!")
     ;;    )
+
     (cond
      ( path
        (when (eq browse-url-browser-function 'eww-browse-url)
@@ -1750,6 +1750,7 @@ elem.
 	(concat
 	 "https://ansyshelp.ansys.com/"
 	 "Views/Secured/corp/" apdl-current-ansys-version "/en/" file)))
+
      ;; PUBLIC ansyshelp.com documentation starting with v242
      ( (string> apdl-current-ansys-version "v241")
        (browse-url
@@ -2336,6 +2337,4 @@ And store it in the variable `apdl-license'."
 ;; indicate-empty-lines: t
 ;; show-trailing-whitespace: t
 ;; word-wrap: t
-;; time-stamp-active: t
-;; time-stamp-format: "%:y-%02m-%02d"
 ;; End:

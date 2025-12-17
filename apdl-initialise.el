@@ -358,6 +358,12 @@ customisation variables."
     ;; ;; 2) -current-apdl-version: is in the -ansys-install-directory
     ;; ;; included
 
+    ;; when using APDL-Mode without an Ansys installation we need to
+    ;; initialise the following variable otherwise no help with C-c C-b
+    (unless apdl-current-ansys-version
+       (setq apdl-current-ansys-version apdl-ansys-version)
+      )
+
   ;; 3) -ansys-program under Win10 seems to be case sensitive!  Since
   ;; at least v191 there is also an MAPDL.exe
   (when (and apdl-ansys-install-directory
