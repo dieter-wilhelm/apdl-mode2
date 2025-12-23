@@ -1,0 +1,28 @@
+APDL package to do list
+* Priorities
+1) Check Github source package with package-install-from-file/buffer
+   - apdl-24.0.1.tar.gz
+2) How to place release comments (currently only git logs, NEWS.org?)
+3) Texinfo
+   - .info binary in repo?
+4) Melpa
+   - standards
+   - where's my recipe?
+   - <NAME>-pgk.el -> <NAME>.el for summary line and headers
+
+* Work
+- Gnu coding standards https://www.gnu.org/prep/standards/
+- Makefile conventions? (Magit example)
+- TAGS for emacs replace version strings
+-
+
+* Release proceedures
+- tagging with annotation e.g. "Release v25.0.0" creates a release
+
+
+
+# Local Variables:
+# minor-mode: flycheck
+# indicate-empty-lines: t
+# show-trailing-whitespace: t
+# End:
