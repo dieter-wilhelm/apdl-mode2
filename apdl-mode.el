@@ -6,7 +6,7 @@
 ;; Version: 20.7.0
 ;; Package-Requires: ((emacs "25.1"))
 ;; Keywords: languages, convenience, tools, Ansys, APDL
-;; URL: https://github.com/dieter-wilhelm/apdl-mode
+;; URL: https://github.com/dieter-wilhelm/apdl
 
 ;; Maintainer: H. Dieter Wilhelm
 
@@ -43,10 +43,10 @@
 ;; language of the FEA (Finite Element Analysis) suite Ansys (ANalysis
 ;; SYStem, registered TM https://www.ansys.com).
 
-;; APDL-Mode (formerly ANSYS-Mode) represents, in conjunction with the
-;; GNU-Emacs editor, an advanced APDL environment with features like
-;; keyword completion, code templates, solver communication (GNU-Linux
-;; only), license reporting, dedicated keybindings, etc.
+;; The APDL package represents, in conjunction with the GNU-Emacs
+;; editor, an advanced APDL environment with features like keyword
+;; completion, code templates, solver communication (GNU-Linux only),
+;; license reporting, dedicated keybindings, etc.
 
 ;; Nowadays - with the advent of modern GUIs - I find APDL-Mode also
 ;; useful for studying solver (.dat) files which were created by
@@ -58,7 +58,7 @@
 ;; First usage:
 
 ;; Please type `M-x apdl' to open a buffer under APDL-Mode.  From this
-;; buffer you can investigate the menu entries `APDL' and `Ansys' and
+;; buffer you can investigate the menu entries `APDL' and `MAPDL' and
 ;; testing some APDL code.
 
 ;; The APDL-Mode help you'll find with typing `C-c C-h' together with a
