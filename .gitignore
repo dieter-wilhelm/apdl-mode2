@@ -12,7 +12,6 @@ TAGS
 *.sig
 *.tgz
 *.pdf
-*.texi
 *.tex
 *.gz
 *.xz

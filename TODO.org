@@ -1,6 +1,6 @@
 APDL package to do list
 * Priorities
-1) Makefile(s)
+1) Makefile(s), Texinfo, TAGS, version strings
 2) Check Github source package with package-install-from-file/buffer
    - apdl-24.0.1.tar.gz, when I remove the "pax_global_header" from
      the github archive we can install it with
@@ -8,15 +8,20 @@ APDL package to do list
    - It seems that package.el is reading the apdl-readme.txt?!
    - package.el needs a <name>.el file
    - manual: tar -cvf apdl-24.0.1.tar *el --transform 's,^,apdl-24.0.1/,'
-
 3) How to place release comments (currently only git logs, NEWS.org?)
 4) Texinfo
    - .info binary in repo?
 5) Melpa
    - standards
    - <NAME>-pgk.el -> <NAME>.el for summary line and headers
+6) Rework qr-code on ansys+emacs.png (or cut it out)
 
 * Images, binaries
+** Formatting
+Github doesn't (yet) understand org-mode attr_html: and #+caption:
+[2025-12-24 Mi]
+
+** Storage
 Github copilot suggests storing images directly into repo, when the
 images are few and don't change often. Alternatives are
 - git-lfs
