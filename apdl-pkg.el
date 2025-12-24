@@ -51,7 +51,7 @@
 
 ;; (require 'package)
 
-(define-package "apdl" "24.0.0"
+(define-package "apdl" "24.0.2"
   "Major mode for the APDL programming language."
   '((emacs "25.1"))
   :keywords

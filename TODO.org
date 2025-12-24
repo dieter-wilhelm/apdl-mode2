@@ -1,14 +1,16 @@
 APDL package to do list
 * Priorities
+0) Makefile(s)
 1) Check Github source package with package-install-from-file/buffer
    - apdl-24.0.1.tar.gz
    - It seems that package.el is reading the apdl-readme.txt?!
+   - manual: tar -cvf apdl-24.0.1.tar *el --transform 's,^,apdl-24.0.1/,'
+
 2) How to place release comments (currently only git logs, NEWS.org?)
 3) Texinfo
    - .info binary in repo?
 4) Melpa
    - standards
-   - where's my recipe?
    - <NAME>-pgk.el -> <NAME>.el for summary line and headers
 
 * Work
@@ -28,11 +30,12 @@ folder.
 melpa/apdl
 
 * Release proceedures
-- tagging e.g. "v25.0.0" creates a release
-- lightweight tag or with annotation?
+- tagging (lightweight suffices) e.g. "v25.0.0" creates a release, it
+  reads from RELEASE_NOTES.org
 
 
 
+# ##############################
 # Local Variables:
 # minor-mode: flycheck
 # indicate-empty-lines: t
