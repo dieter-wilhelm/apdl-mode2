@@ -1,17 +1,26 @@
 APDL package to do list
 * Priorities
-0) Makefile(s)
-1) Check Github source package with package-install-from-file/buffer
-   - apdl-24.0.1.tar.gz
+1) Makefile(s)
+2) Check Github source package with package-install-from-file/buffer
+   - apdl-24.0.1.tar.gz, when I remove the "pax_global_header" from
+     the github archive we can install it with
+     package-install-from-file
    - It seems that package.el is reading the apdl-readme.txt?!
+   - package.el needs a <name>.el file
    - manual: tar -cvf apdl-24.0.1.tar *el --transform 's,^,apdl-24.0.1/,'
 
-2) How to place release comments (currently only git logs, NEWS.org?)
-3) Texinfo
+3) How to place release comments (currently only git logs, NEWS.org?)
+4) Texinfo
    - .info binary in repo?
-4) Melpa
+5) Melpa
    - standards
    - <NAME>-pgk.el -> <NAME>.el for summary line and headers
+
+* Images, binaries
+Github copilot suggests storing images directly into repo, when the
+images are few and don't change often. Alternatives are
+- git-lfs
+- github pages
 
 * Work
 - Gnu coding standards https://www.gnu.org/prep/standards/
@@ -30,8 +39,10 @@ folder.
 melpa/apdl
 
 * Release proceedures
-- tagging (lightweight suffices) e.g. "v25.0.0" creates a release, it
+- Push to upstream / origin
+- Tag (lightweight suffices) e.g. "v25.0.0" creates a release, it
   reads from RELEASE_NOTES.org
+- Push tag
 
 
 

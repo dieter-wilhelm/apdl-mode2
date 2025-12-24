@@ -16,7 +16,7 @@
 #+OPTIONS: html-scripts:t html-style:t html5-fancy:nil tex:t
 #+HTML_DOCTYPE: xhtml-strict
 #+HTML_CONTAINER: div
-#+HTML_LINK_HOME: https://github.com/dieter-wilhelm/ansys-mode2
+#+HTML_LINK_HOME: https://github.com/dieter-wilhelm/apdl
 # #+HTML_LINK_UP: index.html
 #+HTML_HEAD:
 #+HTML_HEAD_EXTRA:
@@ -29,7 +29,7 @@ The GNU-Emacs major mode for the programming language APDL
 # It is best read in Emacs's Org mode.
 
 Copyright (C) 2006 - 2025  H. Dieter Wilhelm, GPL V3
-# [[file:doc/ansys+emacs.png]]
+[[file:assets/ansys+emacs.png]]
 
 * Introduction
   APDL (Ansys Parametric Design Language) is the solver scripting
